@@ -1,0 +1,31 @@
+﻿<Window x:Class="Big_pack.Material_edit_form"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Big_pack"
+        mc:Ignorable="d"
+        Title="Material_edit_form" Height="450" Width="800">
+    <Grid>
+        <Image x:Name="Edit_Big_pack_logo" HorizontalAlignment="Left" Height="100" Margin="191,68,0,0" VerticalAlignment="Top" Width="100">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="picture.png"/>
+            </Image.OpacityMask>
+        </Image>
+        <Label x:Name="edit_title_label" Content="Наименование материала" HorizontalAlignment="Left" Margin="296,68,0,0" VerticalAlignment="Top" FontFamily="Verdana" OpacityMask="White"/>
+        <TextBox x:Name="Edit_title_text" HorizontalAlignment="Left" Height="23" Margin="467,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="Verdana" OpacityMask="White"/>
+        <Label x:Name="edit_contlnpack_label" Content="Количество в упаковке" HorizontalAlignment="Left" Margin="296,196,0,0" VerticalAlignment="Top" FontFamily="Verdana" OpacityMask="White"/>
+        <TextBox x:Name="Edit_countlnpack_text" HorizontalAlignment="Left" Height="23" Margin="467,196,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="Verdana" OpacityMask="White"/>
+        <Label x:Name="edit_unit_label" Content="Единица измерения" HorizontalAlignment="Left" Margin="296,161,0,0" VerticalAlignment="Top" Width="131" FontFamily="Verdana" OpacityMask="White"/>
+        <TextBox x:Name="edit_unit_text" HorizontalAlignment="Left" Height="23" Margin="467,163,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="Verdana" OpacityMask="White"/>
+        <Label x:Name="edit_materialtypeID_label" Content="Тип материала" HorizontalAlignment="Left" Margin="296,99,0,0" VerticalAlignment="Top" FontFamily="Verdana" OpacityMask="White"/>
+        <TextBox x:Name="edit_materialtypeID_text" HorizontalAlignment="Left" Height="23" Margin="467,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="Verdana" OpacityMask="White"/>
+        <Label x:Name="edit_countln_label" Content="Количество на складе" HorizontalAlignment="Left" Margin="296,130,0,0" VerticalAlignment="Top" FontFamily="Verdana" OpacityMask="White"/>
+        <TextBox x:Name="edit_countlnstock_text" HorizontalAlignment="Left" Height="23" Margin="467,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="Verdana" OpacityMask="White"/>
+        <Label x:Name="edit_mincount_label" Content="Минимальное количество" HorizontalAlignment="Left" Margin="296,227,0,0" VerticalAlignment="Top" FontFamily="Verdana" OpacityMask="White"/>
+        <TextBox x:Name="edit_mincount_text" HorizontalAlignment="Left" Height="23" Margin="467,227,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" FontFamily="Verdana" OpacityMask="White"/>
+        <Label x:Name="edit_cost_label" Content="Стоимость за единицу" HorizontalAlignment="Left" Margin="296,258,0,0" VerticalAlignment="Top" FontFamily="Verdana" OpacityMask="White"/>
+        <TextBox x:Name="edit_cost_text" HorizontalAlignment="Left" Height="23" Margin="467,260,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="Verdana" OpacityMask="White"/>
+        <Button x:Name="Save_button_click" Content="Button" HorizontalAlignment="Left" Margin="371,344,0,0" VerticalAlignment="Top" Width="96" OpacityMask="White"/>
+    </Grid>
+</Window>
